@@ -1,0 +1,363 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* TOPO DA PAGINA MENU SUPERIOR 1 */
+.topo-pagina {
+    background-color: #f7f7f7;
+    height: 60px;
+}
+
+.menu-icon img {
+    width: 28px;
+    margin-top: 14px; 
+}
+
+.menu-contato span {
+    margin-left: 30px;
+    float: right;
+    margin-top: 18px;
+}
+
+/* MENU DA PAGINA MENU */
+.menu {
+    height: 90px;
+    background-color: #FFF;
+}
+
+.logo h3 {
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: 900;
+    color: #000;
+}
+
+.menu-itens ul li {
+    float: right;
+    margin-right: 30px;
+    margin-top: 34px;
+}
+
+.menu-itens ul li a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu-itens ul li a:hover {
+    color: #f16821;
+}
+
+/* BANNER */
+.banner {
+    padding: 0px;
+}
+
+.fundo {
+    background-image: url('../imgs/bannerteste.png');
+    width: 100%;
+    height: 800px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fundo h2 {
+    padding-top: 200px;
+    font-size: 80px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.fundo p {
+    font-size: 16px;
+    color: #FFF;
+    letter-spacing: 0.7px;
+}
+
+.btn-transparente {
+    margin-top: 25px;
+    height: 50px;
+    width: 160px;
+    background-color: rgb(255, 255, 255, 0);
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.btn-transparente:hover {
+    color: #000;
+    background-color: #FFF;
+}
+
+.btn-branco {
+    margin-top: 25px;
+    height: 50px;
+    width: 210px;
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    color: #000;
+    font-weight: 700;
+}
+
+.btn-branco:hover {
+    color: #FFF;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+/* INICIO CONTEUDO - PRODUTOS */
+.titulo-produtos {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.titulo-produtos span {
+    letter-spacing: 2px;
+    color: #ababab;
+    font-weight: 600;
+}
+
+.titulo-produtos h2 {
+    font-weight: 900;
+    color: #000;
+    font-size: 40px;
+}
+
+.titulo-produtos p {
+    color: gray;
+    margin-bottom: 60px;
+}
+
+.produtos {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.foto-produtos {
+    height: 350px;
+    width: 100%;
+}
+
+.titulo-cart-produto {
+    font-size: 18px;
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.produtos p {
+    color: gray;
+    font-size: 14px;
+}
+
+.btn-cart-preto {
+    width: 80px;
+    height: 35px;
+    background-color: black;
+    color: #FFF;
+    font-weight: 700;
+    border: 2px solid #000;
+}
+
+.btn-cart-preto:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.btn-cart-branco {
+    width: 80px;
+    height: 35px;
+    background-color: #FFF;
+    color: #000;
+    font-weight: 700;
+    border: 2px solid #000;
+}
+
+.btn-cart-branco:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+/* BUSCA DO SITE + PARALLAX */
+.fundo-busca {
+    margin-top: 100px;
+    background-image: url('../imgs/bannerteste.png');
+    width: 100%;
+    height: 420px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.busca {
+    text-align: center;
+}
+
+.busca h4 {
+    padding-top: 110px;
+    font-size: 28px;
+    color: #FFF;
+}
+
+.busca input {
+    margin-top: 20px;
+    padding-left: 5px;
+    height: 40px;
+    width: 510px;
+    background-color: rgb(255, 255, 255, 0);
+    border: 2px solid #FFF;
+    color: #CCC;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.btn-inscrevase {
+    height: 40px;
+    width: 110px;
+    background-color: rgb(255, 255, 255, 0);
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.busca input:focus, .btn-inscrevase:focus {    
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.busca p {
+    margin-top: 40px;
+    color: #FFF;
+}
+
+/* MAIS PRODUTOS DETALHADOS */
+.fundo-cinza {
+    background-color: #ededed;
+    padding-bottom: 20px;
+}
+
+.sobre-produto {
+    height: 550px;
+    background-color: #FFF;
+    margin-bottom: 80px !important;
+}
+
+.sobre-produto img {
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.sobre-produto1-txt {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.sobre-produto1-txt h5 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sobre-produto1-txt p {
+    color: gray;
+    margin-top: 25px;
+}
+
+.preco h5 {
+    padding-top: 15px;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.preco p {
+    margin-top: 0px;
+}
+
+.preco span {
+    color: #CCC;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.btn-sobre-branco {
+    width: 130px;
+    height: 35px;
+    background-color: #FFF;
+    color: #000;
+    border: 3px solid #000;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.btn-sobre-branco:hover {
+    color: #FFF;
+    background-color: #000;
+}
+
+.btn-sobre-preto {
+    width: 130px;
+    height: 35px;
+    background-color: #000;
+    color: #FFF;
+    border: 3px solid #000;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.btn-sobre-preto:hover {
+    color: #000;
+    background-color: #FFF;
+}
+
+/* SOBRE - ABOUT US */
+.sobre-nos {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #FFF;
+}
+
+.sobre-nos span {
+    letter-spacing: 2px;
+    color: #ababab;
+    font-weight: 600;
+}
+
+.sobre-nos h2 {
+    font-weight: 700;
+    color: #000;
+    font-size: 46px;
+}
+
+.sobre-nos p {
+    color: gray;
+}
+
+.btn-sobre-nos {
+    width: 130px;
+    height: 35px;
+    background-color: #000;
+    color: #FFF;
+    border: 3px solid #000;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.btn-sobre-nos:hover {
+    color: #000;
+    background-color: #FFF;
+}
+
+.sobre-nos .col-md-4 {
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 40px;
+}
