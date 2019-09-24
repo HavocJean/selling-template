@@ -18,6 +18,11 @@ ul {
     margin-top: 14px; 
 }
 
+.menu-icon img:hover {
+    border-radius: 50%;
+    background-color: #f16821;
+}
+
 .menu-contato span {
     margin-left: 30px;
     float: right;
@@ -113,7 +118,7 @@ ul {
 
 /* INICIO CONTEUDO - PRODUTOS */
 .titulo-produtos {
-    padding-top: 120px;
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -320,7 +325,6 @@ ul {
 /* SOBRE - ABOUT US */
 .sobre-nos {
     padding-top: 90px;
-    padding-bottom: 90px;
     background-color: #FFF;
 }
 
@@ -360,4 +364,207 @@ ul {
     padding-top: 150px;
     padding-left: 100px;
     padding-right: 40px;
+}
+
+/* LEADERSHIP E TEAM */
+.team {
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
+.team .col-md-4 {
+    text-align: center;
+}
+
+.team h5 {
+    padding-top: 20px;
+    color: gray;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.team span {
+    color: #ccc;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.team p {
+    margin-top: 15px;
+    color: gray;
+}
+
+.team a img:hover {
+    filter: contrast(10%) brightness(10%);
+}
+
+.fundo-summer {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../imgs/bannerteste.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* SUMMER */
+.fundo-summer {
+    text-align: center;
+    padding-top: 180px;
+}
+
+.fundo-summer span {
+    letter-spacing: 2px;
+    color: #ababab;
+    font-weight: 600;
+}
+
+.fundo-summer h4 {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 42px;
+    padding-top: 15px;
+}
+
+.fundo-summer p {
+    color: #FFF;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.tempo {
+    padding-top: 50px !important;
+}
+
+.tempo ul li {
+    width: 80px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 10%;
+    background-color: #FFF;
+    display: inline-block;
+}
+
+.tempo ul li span {
+    font-size: 40px;
+    color: rgb(121, 240, 137);
+}
+
+.tempo ul li p {
+    color: gray;
+    padding: 0px;
+}
+
+.btn-summer {
+    width: 170px;
+    height: 50px;
+    background-color: rgb(255, 255, 255, 0);
+    color: #FFF;
+    border: 2px solid #FFF;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-top: 35px;
+}
+
+.btn-summer:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+/* OFFER SERVICE - SERVICOS OFERECIDOS */
+.offer-service {
+    padding-bottom: 100px;
+}
+
+.offer-service .row {
+    padding-top: 60px;
+}
+.offer-service img {
+    float: left;
+}
+
+.offer-service h5 {
+    padding-left: 60px;
+    color: gray;
+}
+
+.offer-service p {
+    padding-left: 60px;
+    padding-right: 30px;
+    color: gray;
+}
+
+.offer-service a {
+    text-decoration: none !important;
+}
+
+.offer-service a span {
+    color: #f16821;
+    padding-left: 60px;
+}
+
+.offer-service a span:hover {
+    color: #c34b0e;
+}
+
+/* COMENTARIOS - TESTiMONIALS */
+.comentarios {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.comentarios img {
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 200px;
+}
+
+.comentarios p {
+    margin-top: 20px;
+    color: gray;
+    font-size: 24px;
+    padding-left: 180px;
+    padding-right: 180px;
+    font-style: italic;
+}
+
+.comentarios span {
+    font-weight: bolder;
+}
+
+/* BLOG E POSTS */
+.blog-post {
+    margin-top: 70px;
+    padding-bottom: 60px;
+}
+
+.blog-post img {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.blog-post p {
+    margin-top: 8px;
+    color: #cfcfcf;
+}
+
+.blog-post p a {
+    color: #f16821;
+    font-size: 16px;
+}
+
+.blog-post p a:hover {
+    color: #c34b0e;
+}
+
+.blog-post span {
+    color: gray;
 }
