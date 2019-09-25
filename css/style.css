@@ -245,7 +245,7 @@ ul {
 
 /* MAIS PRODUTOS DETALHADOS */
 .fundo-cinza {
-    background-color: #ededed;
+    background-color: #fafafa;
     padding-bottom: 20px;
 }
 
@@ -567,4 +567,139 @@ ul {
 
 .blog-post span {
     color: gray;
+}
+
+/* CONTATO - CONTACT */
+.contact {
+    width: 600px;
+    height: 780px;
+    background-color: #FFF;
+    margin-left: 24%;
+    margin-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 80px;
+}
+
+.contact h2 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-weight: normal;
+    color: #000;
+}
+
+.contact label {
+    color: #000;
+    padding-top: 20px;
+}
+
+.btn-msg {
+    width: 130px;
+    height: 55px;
+    background-color: #000;
+    color: #FFF;
+    border: 3px solid #000;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.btn-msg:hover {
+    color: #000;
+    background-color: #FFF;
+}
+
+/* RODAPE */
+footer {
+    height: 800px;
+}
+.rodape {
+    padding-top: 100px;
+}
+
+.rodape h5 {
+    font-size: 16px;
+    font-weight: 900;
+    color: #000;
+    padding-bottom: 30px;
+}
+
+.rodape p {
+    color: gray;
+}
+
+.rodape ul {
+    padding: 0px;
+}
+
+.rodape ul li {
+    padding-bottom: 10px;
+}
+
+.rodape ul li a {
+    color: gray;
+    text-decoration: none;
+}
+
+.rodape ul li a:hover {
+    color: #000;
+}
+
+.rodape div:nth-child(2){
+    padding-left: 60px;
+}
+
+.icons-footer img {
+    width: 16px;
+    margin-right: 16px;
+}
+
+.icons-footer img:hover {
+    filter: contrast(10%) brightness(10%);
+    cursor: pointer;
+}
+
+.featured-footer img {
+    width: 100%;
+}
+
+.rodape h6 {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.rodape span {
+    font-weight: bold;
+}
+
+.btn-cart {
+    width: 130px;
+    height: 35px;
+    background-color: #000;
+    color: #FFF;
+    border: 3px solid #000;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.btn-cart:hover {
+    color: #000;
+    background-color: #FFF;
+}
+
+.mensagem-rodape {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.mensagem-rodape p, .mensagem-rodape p a {
+    color: gray;
+    text-decoration: none; 
+    margin: 1px;
+}
+
+.mensagem-rodape p a:hover {
+    color: #000;
 }
