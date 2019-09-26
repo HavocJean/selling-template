@@ -54,8 +54,12 @@ ul {
     text-decoration: none;
 }
 
-.menu-itens ul li a:hover {
-    color: #f16821;
+.menu-itens ul li a:hover, .menu-itens ul li a:active {
+    color: #f16821 !important;
+}
+
+.active {
+    color: #f16821 !important;
 }
 
 /* BANNER */
@@ -510,7 +514,7 @@ ul {
 
 /* COMENTARIOS - TESTiMONIALS */
 .comentarios {
-    text-align: center;
+    text-align: center !important;
     padding-bottom: 100px;
 }
 
@@ -703,3 +707,39 @@ footer {
 .mensagem-rodape p a:hover {
     color: #000;
 }
+
+
+/* efeito menu fixed */
+.fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 99;
+    height: 70px;
+}
+
+.fix h3 {
+    margin-top: 10px;
+}
+
+.fix ul li {
+    margin-top: 25px;
+}
+
+/* efeito animação aparecendo na tela 
+
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime="down"] {
+    transform: translate3d(0, +100px, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px); 
+} */

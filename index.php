@@ -6,17 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <title>Selling Template</title>
 </head>
 <body>
-    <div class="container-fluid topo-pagina">
+    <div class="container-fluid topo-pagina" id="home">
         <div class="container">
             <div class="row">
                 <div class="col menu-icon">
-                    <a href="#"><img src="imgs/facebook-logo-button.png" alt="Facebook"></a>
-                    <a href="#"><img src="imgs/instagram-logo.png" alt="Instagram"></a>
-                    <a href="#"><img src="imgs/twitter-logo-button.png" alt="Twitter"></a>
+                    <a href="https://github.com/havocjean" target="_blank"><img src="imgs/facebook-logo-button.png" alt="Facebook"></a>
+                    <a href="https://github.com/havocjean" target="_blank"><img src="imgs/instagram-logo.png" alt="Instagram"></a>
+                    <a href="https://github.com/havocjean" target="_blank"><img src="imgs/twitter-logo-button.png" alt="Twitter"></a>
                 </div>
                 <div class="col menu-contato">
                     <span><img src="imgs/envelope.png" width="18px"> contato@email.com</span>
@@ -33,13 +32,13 @@
                 </div>
                 <div class="col-md-8 menu-itens">
                     <ul>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Comentários</a></li>
-                        <li><a href="#">Especial</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Produtos</a></li>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#contato" class="scrollSuave">Contato</a></li>
+                        <li><a href="#blog" class="scrollSuave">Blog</a></li>
+                        <li><a href="#comentarios" class="scrollSuave">Comentários</a></li>
+                        <li><a href="#especial" class="scrollSuave">Especial</a></li>
+                        <li><a href="#sobre" class="scrollSuave">Sobre</a></li>
+                        <li><a href="#produtos" class="scrollSuave">Produtos</a></li>
+                        <li><a href="#home" class="scrollSuave">Home</a></li>
                     </ul>
                 </div>
             </div>
@@ -47,7 +46,7 @@
     </div>
     <div class="container-fluid banner">
         <div class="fundo">
-            <div class="container">
+            <div class="container" >
                 <h2>Shop With Us</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam<br> assumenda ea quo cupiditate facere deleniti fuga officia.</p>
                 <button type="button" class="btn-transparente">SHOP NOW</button>
@@ -55,7 +54,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="produtos">
         <div class="container titulo-produtos">
             <span>PRODUTOS POPULARES</span>
             <h2>Nossos Produtos</h2>
@@ -161,7 +160,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat commodi veniam<br> doloremque ducimus tempora.</p>
         </div>
     </div>
-    <div class="container-fluid fundo-cinza">
+    <div class="container-fluid fundo-cinza" >
         <div class="container titulo-produtos">
             <span>AWESOME PRODUCTS</span>
             <h2>Featured Products</h2>
@@ -204,7 +203,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="sobre">
         <div class="container sobre-nos">
             <div class="row">
                 <div class="col-md-8">   
@@ -251,7 +250,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid fundo-summer">
+    <div class="container-fluid fundo-summer" id="especial">
         <div class="container">
             <span>SPECIAL PROMO</span>
             <h4>Summer Sale</h4>
@@ -331,18 +330,34 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="comentarios">
         <div class="titulo-produtos">
             <span>PEOPLE SAYS</span>
             <h2>Testimonials</h2>
         </div>
         <div class="container comentarios">
-            <img src="imgs/co2.jpg" alt="COO">
-            <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.”</p>
-            <span>John Smith</span>
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imgs/co2.jpg" alt="COO">
+                        <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.”</p>
+                        <span>John Smith</span>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/co1.jpg" alt="COO">
+                        <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.”</p>
+                        <span>Robert Ronald</span>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/market.jpg" alt="COO">
+                        <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.”</p>
+                        <span>Roger Spears</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="blog">
         <div class="titulo-produtos">
             <span>BLOG</span>
             <h2>Blog Posts</h2>
@@ -373,12 +388,12 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid fundo-cinza">
+    <div class="container-fluid fundo-cinza" id="contato">
         <div class="titulo-produtos">
             <span>CONTACT FORM</span>
             <h2>Get In Touch</h2>
         </div>
-        <div class="container">
+        <div class="container" >
             <div class="contact">
                 <h2>Contact Form</h2>
                 <form action="" method="post">
@@ -448,5 +463,9 @@
             <p>Criação beseada no site <a href="https://colorlib.com/preview/theme/selling/#about-section" target="_blank">Selling da Colorlib</a></p>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
