@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" type="imgs/png" href="imgs/s-bag.png" />
     <title>Selling Template</title>
 </head>
 <body>
-    <div class="container-fluid topo-pagina" id="home">
+    <div class="container-fluid topo-pagina section" id="section_1">
         <div class="container">
             <div class="row">
                 <div class="col menu-icon">
@@ -32,13 +33,27 @@
                 </div>
                 <div class="col-md-8 menu-itens">
                     <ul>
-                        <li><a href="#contato" class="scrollSuave">Contato</a></li>
-                        <li><a href="#blog" class="scrollSuave">Blog</a></li>
-                        <li><a href="#comentarios" class="scrollSuave">Comentários</a></li>
-                        <li><a href="#especial" class="scrollSuave">Especial</a></li>
-                        <li><a href="#sobre" class="scrollSuave">Sobre</a></li>
-                        <li><a href="#produtos" class="scrollSuave">Produtos</a></li>
-                        <li><a href="#home" class="scrollSuave">Home</a></li>
+                        <li><a href="#section_7" class="scrollSuave">
+                            <span data-section="section_7">Contato</span>
+                        </a></li>
+                        <li><a href="#section_6" class="scrollSuave">
+                        <span data-section="section_6">Blog</span>
+                        </a></li>
+                        <li><a href="#section_5" class="scrollSuave">
+                            <span data-section="section_5">Comentários</span>
+                        </a></li>
+                        <li><a href="#section_4" class="scrollSuave">
+                            <span data-section="section_4">Especial</span>
+                        </a></li>
+                        <li><a href="#section_3" class="scrollSuave">
+                            <span data-section="section_3">Sobre</span>
+                        </a></li>
+                        <li><a href="#section_2" class="scrollSuave">
+                            <span data-section="section_2">Produtos</span>
+                        </a></li>
+                        <li><a href="#section_1" class="scrollSuave">
+                            <span class="ativo" data-section="section_1">Home</span>
+                        </a></li>
                     </ul>
                 </div>
             </div>
@@ -54,7 +69,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid" id="produtos">
+    <div class="container-fluid section" id="section_2">
         <div class="container titulo-produtos">
             <span>PRODUTOS POPULARES</span>
             <h2>Nossos Produtos</h2>
@@ -203,7 +218,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid" id="sobre">
+    <div class="container-fluid section" id="section_3">
         <div class="container sobre-nos">
             <div class="row">
                 <div class="col-md-8">   
@@ -250,7 +265,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid fundo-summer" id="especial">
+    <div class="container-fluid fundo-summer section" id="section_4">
         <div class="container">
             <span>SPECIAL PROMO</span>
             <h4>Summer Sale</h4>
@@ -330,7 +345,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid" id="comentarios">
+    <div class="container-fluid section" id="section_5">
         <div class="titulo-produtos">
             <span>PEOPLE SAYS</span>
             <h2>Testimonials</h2>
@@ -357,7 +372,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid" id="blog">
+    <div class="container-fluid section" id="section_6">
         <div class="titulo-produtos">
             <span>BLOG</span>
             <h2>Blog Posts</h2>
@@ -388,7 +403,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid fundo-cinza" id="contato">
+    <div class="container-fluid fundo-cinza section" id="section_7">
         <div class="titulo-produtos">
             <span>CONTACT FORM</span>
             <h2>Get In Touch</h2>
@@ -463,9 +478,10 @@
             <p>Criação beseada no site <a href="https://colorlib.com/preview/theme/selling/#about-section" target="_blank">Selling da Colorlib</a></p>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script rel="javascript" src="js/script.js"></script>
 </body>
 </html>

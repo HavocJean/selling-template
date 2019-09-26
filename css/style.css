@@ -54,11 +54,11 @@ ul {
     text-decoration: none;
 }
 
-.menu-itens ul li a:hover, .menu-itens ul li a:active {
-    color: #f16821 !important;
+.menu-itens ul li a:hover{
+    color: #f16821;
 }
 
-.active {
+.ativo {
     color: #f16821 !important;
 }
 
